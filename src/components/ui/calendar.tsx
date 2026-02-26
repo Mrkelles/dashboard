@@ -59,6 +59,7 @@ function Calendar({
         day_hidden: "invisible",
         ...classNames,
       }}
+      // @ts-ignore
       components={{
         IconLeft: ({ className, ...props }) => (
           <ChevronLeft className={cn("size-4", className)} {...props} />
